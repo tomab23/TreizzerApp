@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>Page Dons</title>
+    <link rel="stylesheet" href="donNc.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- FlexBox -->
+        <div class="conteneur">
+            <!-- element 1 -->
+            <div class="element">
+                <a href="../index/index.html"><img src="../images/logo.png" alt="logo"></a>
+                <h1><a href="../index/index.html">TREIZZER</a></h1>
+    
+            </div>
+            
+            <!-- element 2 -->
+            <div class="element">
+                <div class="liens">
+                <ul>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="../assistance/assistance.html">Assistance</a></li>
+                    <li><a href="../Inscription/Inscription.html">Inscription</a></li>
+                    <li><a href="../connexion/connexion.html">Connexion</a></li>
+                </ul>
+                </div>
+                
+            </div>
+        </div>
+    
+    </header>
+
+
+    <article>
+
+        <h1>MERCI DE NOUS SOUTENIR, MERCI DE VOTRE DON</h1>
+
+        <!-- contour -->
+        <div class="contour">
+
+            <!-- flex box -->
+            <div class="inter">
+                <!-- gauche -->
+                <div class="boxInter">
+                    <br><br>
+                    <label for="montant">MONTANT DU DON : </label>
+                    <input type="number" name="prix" id="prix">
+                    <span>€</span><br><br><br>
+
+                    <p><b>MOYEN DE PAIMENTS : </b></p><br>
+
+                    <table>
+                        <tr>
+                            <td><img src="../page_don/icons_don/CB.jpg" alt="cate bancaire" class="cb"></td>
+                            <td><img src="../page_don/icons_don/visa.jpg" alt="visa" class="visa"></td>
+                            <td><img src="../page_don/icons_don/Mastercard-logo.svg.png" alt="masterCard" class="mc"></td>
+                            <td><img src="../page_don/icons_don/paypal.png" alt="paypal" class="paypal"></td>
+                        </tr>
+                    </table><br><br><br><br>
+
+                    <button class="pay">AVEC PAYPAL</button>
+
+                </div>
+
+                <!-- line milieu -->
+                <div class="boxInter">
+                    <div class="line"></div>
+                </div>
+
+                <!-- droite -->
+                <div class="boxInter">
+                    <img src="icons_don/icons8-debit-card-50.png" alt="carte de credit"><br><br>
+
+                    <label for="name">Nom Prenom : </label>
+                    <input type="text" name="name" id="name"><br><br>
+
+                    <label for="cb">Numéro de Carte de crédit : </label>
+                    <input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="16"><br><br>
+
+                    <label for="expire">Expiration : </label>
+                    <input name="credit-expires" class="cc-expires" type="tel" pattern="\d*" maxlength="5" placeholder="Mois / année"><br><br>
+
+                    <label for="crypto">Cryptogramme visuel : </label>
+                    <input type="tel" maxlength="3" id="code" >
+                    <img src="icons_don/code.png" alt="crypto code" class="crypto"><br><br>
+
+                    <button class="val">VALIDER</button>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+
+  <footer>
+        <div class="conteneur">
+            <div class="contenu">
+                <a href="#top"><img src="../images/logo.png" alt="logo"></a>
+            </div>
+
+
+            <div class="contenu">
+                <div class="flexList">
+                    <div class="liste">
+                        <ul class="testUl">
+                            <li><p class="titre">Société</p></li>
+                            <li></li>
+                            <li><p><a href="../page_boutique/boutique.html">Boutique</a></p></li>
+                            <li><p>A propos</p></li>
+                        </ul>
+                    </div>
+    
+    
+                    <div class="liste">
+                        <ul class="testUl2">
+                            <li><p class="titre">Liens utiles</p></li>
+                            <li></li>
+                            <li><p><a href="../assistance/assistance.html">Assistance</a></p></li>
+                            <li><p>Lecteur web</p></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="contenu">
+                <table>
+                    <tr>
+                        <td><img src="../images/icons/iconReseau/facebook_v1.png" alt="facebook"></td>
+                        <td><img src="../images/icons/iconReseau/insta_v1_v2.png" alt="instagram"></td>
+                        <td><img src="../images/icons/iconReseau/twitter_v1.png" alt="twitter"></td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <div class="contenu">
+                <div class="donne">
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="fin">
+            <span>Légal</span>
+            <span>Centre de confitiendalité</span>
+            <span>Protection des données</span>
+            <span>Paramètres des cookies</span>
+            <span>A propos des pubs</span>
+            <span class="bas">©2022 Treizzer</span>
+        </div>
+    </footer>
+
+   
+</body>
+</html>

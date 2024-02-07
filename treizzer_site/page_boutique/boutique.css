@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px white solid;
+}
+
+.tete {
+    display: flex;
+    justify-content: center;
+}
+
+.titreTete {
+    height: 150px;
+    width: 500px;
+    color: white;
+}
+
+.titreTete img {
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 1px black solid;
+}
+
+.titreTete img:hover {
+    border: 1px white solid;
+}
+
+/* Fin header */
+
+
+
+
+/* article */
+
+article {
+    height: 600px;
+    background-color: #16286A;
+}
+
+
+/* grid */
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.un {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.un img {
+    margin-top: 15px;
+    height: 270px;
+    width: 340px;
+    cursor: pointer;
+}
+
+.un img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+}
+
+.titre {
+    text-align: center;
+}
+
+.line1 {
+    border-bottom: 1px #8399E6 solid;
+    width: 1000px;
+    margin: auto;
+}
+
+.line3 {
+    border-bottom: 1px #8399E6 solid;
+    width: 500px;
+    margin: auto;
+}
+
+
+
+img {
+    height: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+button {
+    width: 250px;
+    border: none;
+    cursor: pointer;
+}
+
+
+input {
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+/* container */
+
+
+  .seco {
+    border: 1px black solid;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: white;
+    padding: 15px 50px;
+    margin: 0 auto;
+  }
+  .seco span {
+    position: relative;
+    z-index: 1;
+  }
+  .seco:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    background: #8399E6;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  }
+  .seco:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }

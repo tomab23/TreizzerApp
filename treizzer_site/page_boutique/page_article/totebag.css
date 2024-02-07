@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 2px white solid;
+}
+
+.tete {
+    display: flex;
+    justify-content: center;
+}
+
+.titreTete {
+    height: 150px;
+    width: 500px;
+    color: white;
+}
+
+.titreTete img {
+    margin: 5px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 1px black solid;
+}
+
+
+.titreTete img:hover {
+    border: 1px white solid;
+}
+
+
+/* Fin header */
+
+
+
+
+/* article */
+
+article {
+    height: 600px;
+    background-color: #16286A;
+    padding-top: 20px;
+}
+
+.retour {
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: white;
+    background-color: #16286A;
+    border: 1px white solid;
+
+}
+
+.retour:hover {
+    color: #8399E6;
+    border: 1px #8399E6 solid;
+    transform: scale(1.1);
+}
+
+span img {
+    float: right;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+span img:hover {
+    transform: scale(1.1);
+}
+
+.prod {
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    color: white;
+}
+
+.produit{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail {
+    margin-top: 15px;
+    height: 400px;
+    width: 600px;
+}
+
+
+.detail img {
+    height: 350px;
+    width: 450px;
+    float: right;
+}
+
+
+p, label {
+    color: white;
+}
+
+select {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+option {
+    cursor: pointer;
+}
+
+button {
+    margin-left: 200px;
+    width: 180px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16286A;
+    color: white;
+    border: 1px white solid;
+}

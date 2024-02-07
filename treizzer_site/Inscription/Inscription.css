@@ -1,0 +1,220 @@
+/* ID */
+#background {
+    text-align: center;
+    height: 1500px;
+    background: rgb(21,30,61);
+    background: -moz-radial-gradient(circle, rgba(21,30,61,1) 0%, rgba(21,30,61,1) 34%, rgba(13,15,23,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(21,30,61,1) 0%, rgba(21,30,61,1) 34%, rgba(13,15,23,1) 100%);
+    background: radial-gradient(circle, rgba(21,30,61,1) 0%, rgba(21,30,61,1) 34%, rgba(13,15,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#151e3d",endColorstr="#0d0f17",GradientType=1); 
+}
+
+#Labelx {
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#homme {
+    margin-right: 80px;
+}
+
+#femme {
+    margin-right: 80px;
+}
+
+#do1 {
+    margin-left: 33px;
+}
+
+#do2 {
+    margin-left: 19px;
+}
+
+#do3 {
+    margin-left: 8px;
+}
+
+#do4 {
+    margin-right: 186px;
+}
+
+#checkbox2 {
+    margin-left: 19px;
+}
+
+#Inscription-Treizzer {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+/* BALISE */
+h1 {
+    margin-top: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: snow;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: snow;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: snow;
+}
+
+input {
+    margin: auto;
+}
+
+label {
+    color: snow;
+}
+
+/* CLASSE */
+.Inp {
+    height: 34px;
+    width: 400px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.fb-login-button {
+    height: 40px;
+    width: 350px;
+    border-radius: 50px;
+    background-color: #3b5998;
+    border: 0px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.fb-login-button:hover {
+    transform: scale(1.05);
+}
+
+.g-login-button:hover {
+    transform: scale(1.05);
+}
+
+.g-login-button {
+    margin-top: 5px;
+    height: 40px;
+    width: 350px;
+    border-width: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.element {
+    height: 20px;
+    color: snow;
+}
+
+.element:nth-child(1) {
+    border-bottom: 1px rgb(255, 250, 250) solid;
+    width: 170px;
+    margin-top: 9px;
+}
+
+.element:nth-child(3) {
+    border-bottom: 1px rgb(255, 250, 250) solid;
+    width: 170px;
+    margin-top: 9px;
+}
+
+.ou {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+/* LABEL INPUT */
+
+.Lab-a {
+    margin-right: 190px;
+}
+
+.Lab-a2 {
+    margin-right: 194px;
+}
+
+.Lab-a3 {
+    margin-right: 260px;
+}
+
+.Lab-a4 {
+    margin-right: 173px;
+}
+
+.Lab-a5 {
+    margin-right: 255px;
+}
+
+.JMA1 {
+    margin-right: 107px;
+
+}
+
+.JMA2 {
+    margin-right: 105px;
+}
+
+.JMA-Inp1 {
+    width: 40px;
+    margin-right: 90px;
+}
+
+.JMA-Inp2 {
+    width: 40px;
+    margin-right: 90px;
+}
+
+.JMA-Inp3 {
+    width: 50px;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid rgb(22, 40, 106);
+}
+
+
+.I-Treizzer {
+    background-color: #011f5f;
+    color: snow;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    font-size: 18px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .I-Treizzer:hover {
+    background-color: #03a4e9cf;
+  }
+
+
+  

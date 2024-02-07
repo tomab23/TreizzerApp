@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="mdp.css">
+</head>
+
+<body>
+
+    <div class="titre">
+        <div><a href="../profil/profil.html"><img src="logo.png" alt="logo"></a></div>
+
+    </div><br><br><br>
+    <div class="line1"></div><br><br><br><br><br>
+
+
+    <p>Entrer votre nouveau mot de passe : </p>
+
+    <input type="email" name="mdp" id="mdp1"> 
+    <span>
+        <div class="popup" onclick="myFunction()"><img src="info_mdp.png" alt="info mot de passe">
+        <span class="popuptext" id="myPopup">
+            <p>Pour une meilleur protection, utiliser au moins une Majuscule, un chiffre et un symbole dans votre mot de passe</p>
+        </span>
+      </div>
+    </span>
+
+
+    <p>Entrer une nouvelle fois votre nouveau mot de passe : </p>
+
+    <input type="password" name="mdr" id="mdp2"><br><br><br>
+
+    <!-- bonton se connecter -->
+    <div class="container">
+            <button type="button" class="seco" onclick="window.location.href='../profil/profil.html'">
+                <span>Valider</span>
+            </button>
+    </div><br><br><br><br><br><br><br>
+
+    <div class="line1"></div><br><br>
+
+
+    <script src="mdp.js"></script>
+
+
+    
+</body>
+</html>
